@@ -4,8 +4,8 @@
   "description": "A provider profile system with public stats, verification badges, and follower tracking.",
   "main": "dist/main.js",
   "scripts": {
-    "start": "node dist/main.js",
-    "build": "tsc",
+    "start": "node init && node dist/main.js",
+    "build": "node init && tsc",
     "watch": "tsc -w",
     "lint": "eslint . --ext .ts",
     "test": "jest"
