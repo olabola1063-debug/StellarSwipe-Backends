@@ -58,3 +58,6 @@ somzilla.md
 
 **
 # it was a mistake to commit this file, but it was already committed and pushed to the repository. This file is now ignored to prevent further accidental commits.
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
