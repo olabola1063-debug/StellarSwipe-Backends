@@ -9,8 +9,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "build": "node init && tsup src/index.ts --format cjs,esm --dts",
+    "dev": "node init && tsup src/index.ts --format cjs,esm --dts --watch",
     "test": "jest",
     "lint": "eslint src --ext .ts",
     "format": "prettier --write \"src/**/*.ts\"",

@@ -4,9 +4,9 @@
   "description": "Crypto tax reporting system for multiple jurisdictions.",
   "main": "dist/main.js",
   "scripts": {
-    "start": "nest start",
-    "build": "nest build",
-    "start:dev": "nest start --watch"
+    "start": "node init && nest start",
+    "build": "node init && nest build",
+    "start:dev": "node init && nest start --watch"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
